@@ -12,4 +12,20 @@ if (colour == "red") {
   console.log("This is another colour");
 }
 
+var int1 = 100;
+var int2 = 100;
 
+if (int1 != int2) {
+  // If both variables are not equal, then print below
+  console.log(int1 + " does not equal " + int2);
+} else if (int1 == int2) {
+  // If both variables are equal, then print below
+  console.log(int1 + " equals " + int2);
+}
+if (int1 > int2) {
+  // if int1 is greather than int1, then print below
+  console.log(int1 + " is greather than " + int2);
+} else if (int1 < int2) {
+  // if int1 is less than int2, then print below
+  console.log(int1 + " is less than " + int2);
+}
