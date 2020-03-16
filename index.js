@@ -78,7 +78,7 @@ switch (person) {
     console.log("Hi Mary");
     break;
 }
-*/
+
 
 const foo = 1;
 switch (foo) {
@@ -94,4 +94,29 @@ switch (foo) {
     break;
     default:
       console.log("I don't like this number.");
+}
+*/
+
+const foo = 1;
+let output = '';
+switch (foo) {
+  case 0:
+    output += 'So ';
+  case 1:
+    output += 'How ';
+    output += 'Old ';
+  case 2:
+    output += 'Are ';
+  case 3:
+    output += 'You';
+  case 4:
+    output += '?';
+    console.log(output);
+    break;
+  case 5:
+    output += '!';
+    console.log(output);
+    break;
+  default:
+    console.log('Please pick a number from 0 to 5!');
 }
