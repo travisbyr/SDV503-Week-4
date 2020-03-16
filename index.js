@@ -39,7 +39,7 @@ console.log(a == b);
 
 var item = "";
 console.log(item);
-*/
+
 
 var person = "Joe";
 switch (person) {
@@ -58,4 +58,40 @@ switch (person) {
   default:
     console.log("Hi");
     break;
+}
+
+var person = "Joe";
+switch (person) {
+  case "Jane":
+    console.log("Hi Jane");
+    break;
+  case "John":
+    console.log("Hi John");
+    break;
+  default:
+    console.log("Hi");
+    break;
+  case "Joe":
+    console.log("Hi Joe");
+    break;
+  case "Mary":
+    console.log("Hi Mary");
+    break;
+}
+*/
+
+const foo = 1;
+switch (foo) {
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+    console.log("I like this number");
+    break;
+  case -1:
+  case -2:
+    console.log("I love this number");
+    break;
+    default:
+      console.log("I don't like this number.");
 }
