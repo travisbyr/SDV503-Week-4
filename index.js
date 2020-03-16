@@ -120,28 +120,38 @@ switch (foo) {
     console.log("Please pick a number from 0 to 5!");
 }
 */
-const year = 2001;
-switch (year) {
+
+const yearBorn = 2001;
+const currentYear = 2020;
+
+switch (currentYear) {
   case 1999:
-    console.log("Your age is 20");
+    let dob = currentYear - yearBorn;
+    console.log("Your age is " + dob);
     break;
   case 2000:
-    console.log("Your age is 19");
+    let dob = currentYear - yearBorn;
+    console.log("Your age is " + dob);
     break;
   case 2001:
-    console.log("Your age is 18");
+    let dob = currentYear - yearBorn;
+    console.log("Your age is " + dob);
     break;
   case 2002:
-    console.log("Your age is 17");
+    let dob = currentYear - yearBorn;
+    console.log("Your age is " + dob);
     break;
   case 2003:
-    console.log("Your age is 16");
+    let dob = currentYear - yearBorn;
+    console.log("Your age is " + dob);
     break;
   case 2004:
-    console.log("Your age is 15");
+    let dob = currentYear - yearBorn;
+    console.log("Your age is " + dob);
     break;
   case 2005:
-    console.log("Your age is 14");
+    let dob = currentYear - yearBorn;
+    console.log("Your age is " + dob);
     break;
   default:
     console.log("Please choose a year between 2000 and 2005");
