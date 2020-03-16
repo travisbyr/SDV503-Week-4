@@ -59,5 +59,3 @@ switch (person) {
     console.log("Hi");
     break;
 }
-
-console.log(test);
