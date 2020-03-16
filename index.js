@@ -79,7 +79,6 @@ switch (person) {
     break;
 }
 
-
 const foo = 1;
 switch (foo) {
   case 1:
@@ -96,27 +95,54 @@ switch (foo) {
       console.log("I don't like this number.");
 }
 */
-
+/*
 const foo = 1;
-let output = '';
+let output = "";
 switch (foo) {
   case 0:
-    output += 'So ';
+    output += "So ";
   case 1:
-    output += 'How ';
-    output += 'Old ';
+    output += "How ";
+    output += "Old ";
   case 2:
-    output += 'Are ';
+    output += "Are ";
   case 3:
-    output += 'You';
+    output += "You";
   case 4:
-    output += '?';
+    output += "?";
     console.log(output);
     break;
   case 5:
-    output += '!';
+    output += "!";
     console.log(output);
     break;
   default:
-    console.log('Please pick a number from 0 to 5!');
+    console.log("Please pick a number from 0 to 5!");
+}
+*/
+const year = 2001;
+switch (year) {
+  case 1999:
+    console.log("Your age is 20");
+    break;
+  case 2000:
+    console.log("Your age is 19");
+    break;
+  case 2001:
+    console.log("Your age is 18");
+    break;
+  case 2002:
+    console.log("Your age is 17");
+    break;
+  case 2003:
+    console.log("Your age is 16");
+    break;
+  case 2004:
+    console.log("Your age is 15");
+    break;
+  case 2005:
+    console.log("Your age is 14");
+    break;
+  default:
+    console.log("Please choose a year between 2000 and 2005");
 }
