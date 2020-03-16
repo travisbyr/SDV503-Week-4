@@ -1,4 +1,4 @@
-var colour = "red";
+/*var colour = "red";
 
 if (colour == "red") {
   // If colour is red, then print below
@@ -28,4 +28,34 @@ if (int1 > int2) {
 } else if (int1 < int2) {
   // if int1 is less than int2, then print below
   console.log(int1 + " is less than " + int2);
+}
+
+console.log("24" != 24); //  explain why its false, as javascript convert all data types to integers to match eachother, statement asks whether it doesnt match eachother, they do so its false. 
+
+const a = { isHavingFun: true };
+const b = a;
+console.log(a === b);
+console.log(a == b);
+
+var item = "";
+console.log(item);
+*/
+
+var person = "Joe";
+switch (person) {
+  case "Jane":
+    console.log("Hi Jane");
+    break;
+  case "John":
+    console.log("Hi John");
+    break;
+  case "Joe":
+    console.log("Hi Joe");
+    break;
+  case "Mary":
+    console.log("Hi Mary");
+    break;
+  default:
+    console.log("Hi");
+    break;
 }
